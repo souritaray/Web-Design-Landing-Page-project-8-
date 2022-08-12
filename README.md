@@ -21,6 +21,9 @@ In this project I have learned about :
 - Learned how to select an element without class name or ID name.
 - Flexbox 
 
+## Live Link
+[Web Design Landing Page](https://web-design-landing-page-souritaray.netlify.app/)
+
 ## Time required to complete the project
 
 About 2 hours.
