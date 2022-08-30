@@ -83,3 +83,110 @@ nav {
   right: 550px;
   bottom: 70px;
 }
+
+/* Responsive */
+
+@media only screen and (max-width:480px){
+  nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+  .nav-items{
+    display:none;
+  }
+  nav img{
+    width:100px;
+    margin-right: 40px;
+    }
+    .intro-section{
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+    }
+    body{
+      background: url("../images/backcover.svg");
+      background-repeat: no-repeat;
+      background-position: right;
+      background-size: cover;
+    }
+    .vector-dot + img{
+      width:250px;
+      height:250px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: absolute;
+     left:27%;
+     
+    }
+    .imgs-div{
+      height: 326px;  
+    }
+    .vector-img{
+      width:69px;
+      position: absolute;
+      left:13%;
+      top:35%;
+      z-index: 1;
+    }
+    .vector-dot{
+      width:15px;
+      position:relative;
+      top:44%;
+      left:23%;
+      z-index: 1;
+    }
+    .left-section{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: auto ;
+      margin-top: -170px;
+      height:334px;
+    }
+    .left-section h1{
+      font-size: 25px;
+      
+    }
+}
+@media only screen and (max-width:680px) and (min-width:490px){
+  .nav-items{
+    display: none;
+  }
+  .intro-section{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .left-section{
+    margin-top: -185px;
+  }
+  body{
+    background-size: cover;
+  }
+  .imgs-div{
+    width:400px;
+    height:400px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .vector-dot+img{
+    width:300px;
+    height:300px;
+    position: absolute;
+    left:30%;
+  }
+}
+@media only screen and (max-width:1000px) and (min-width:700px){
+  .intro-section{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .left-section{
+    margin-top: 500px;
+  }
+}
