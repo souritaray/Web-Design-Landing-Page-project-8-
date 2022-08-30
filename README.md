@@ -25,7 +25,7 @@ In this project I have learned about :
 - Learned how to select an element without class name or ID name.
 - Flexbox 
 - Media queries
-- Background images
+- Background image properties in CSS
 
 ## Live Link
 [Web Design Landing Page](https://web-design-landing-page-souritaray.netlify.app/)
