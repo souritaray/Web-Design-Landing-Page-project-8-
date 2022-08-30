@@ -27,6 +27,9 @@ In this project I have learned about :
 - Media queries
 - Background images
 
+## Live Link
+[Web Design Landing Page](https://web-design-landing-page-souritaray.netlify.app/)
+
 ## Time required to complete the project
 
 About 5 hours.
